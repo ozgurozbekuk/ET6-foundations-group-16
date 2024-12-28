@@ -1,8 +1,8 @@
 # Collaboration
 
-## Group Norms
-
 Our group is committed to fostering a respectful and supportive environment where we honor each other's time and cultural differences, while providing flexible communication channels to accommodate diverse schedules.
+
+## Group Norms
 
 - We will respect each other's time while remaining flexible and understanding of unforeseen delays.
 - We will create a supportive space that acknowledges cultural differences by asking and offering help and encouragement from/to teammates facing any challenges
