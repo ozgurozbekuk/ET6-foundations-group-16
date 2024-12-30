@@ -8,3 +8,4 @@
 
 - Learn to write more efficient and readable code.  
 - Gain confidence in contributing to team-based coding projects.
+- Learn python
