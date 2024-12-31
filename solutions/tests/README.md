@@ -3,9 +3,7 @@
 ## Overview
 
 This document outlines the structure, guidelines, and standards for the test
- solutions. It serves to guide developers, quality assurance engineers, and
-  other stakeholders in understanding how to write, execute, and maintain tests
-   within the project.
+ written by our group for the ET code review project
 
 ---
 
@@ -27,26 +25,6 @@ The test solutions are organized into the following directories:
   - Located in the `/unit` directory.
   - **Purpose**: Validates individual functions or methods in isolation,
    ensuring they perform as expected.
-  - **Guideline**: Use mocking to isolate functions and avoid testing dependencies.
-
-- **Integration Tests**:
-  - Located in the `/integration` directory.
-  - **Purpose**: Verifies the interaction between components to ensure they work
-  together as expected.
-
-- **Functional Tests**:
-  - Located in the `/functional` directory.
-  - **Purpose**: Focuses on testing application functionality from the user’s perspective.
-
-- **End-to-End (E2E) Tests**:
-  - Located in the `/e2e` directory.
-  - **Purpose**: Simulates real-world user scenarios and ensures the
-   application’s workflow functions as intended.
-
-- **Fixtures**:
-  - Located in the `/fixtures` directory.
-  - **Purpose**: Contains predefined data, settings, or mock objects for
-   consistency across tests.
 
 ### Naming Conventions
 
@@ -61,12 +39,6 @@ The test solutions are organized into the following directories:
 
 - **Isolate Tests**: Each test should be independent and should not rely on
    shared states from other tests. This prevents flakiness.
-  
-- **Clear Assertions**: Ensure each test has clear and specific assertions to
-   check expected outcomes.
-  
-- **Mocking**: Use tools like `unittest.mock` or `pytest-mock` to mock external
-   dependencies such as APIs, databases, or services.
   
 - **Small Tests**: Focus on testing a specific functionality to make failure
    easier to diagnose.
