@@ -22,7 +22,7 @@ environment that provides support and help to every member in need.
 
 ## Individual Goals
 
-- ### **Clement**
+- ### **Clement Mugisha**
 
   - Learn to write more efficient and readable code.  
   - Gain confidence in contributing to team-based coding projects.
