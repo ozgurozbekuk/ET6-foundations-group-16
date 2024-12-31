@@ -1,36 +1,66 @@
 # Learning Goals
 
 This project is designed to provide hands-on experience in collaborative
-group work, promoting a supportive and inclusive learning environment for all teammates
+group work, promoting a supportive and inclusive learning environment for
+all teammates.  
 We are setting these goals
  to ensure that each one of us is growing
  and gaining valuable experience and making the most
  out of this project.
 
-## Collective
+## Collective Goals
 
-From this project, our aim is to gain hands-on experience working
-on group projects collaboratively. And enhance collaboration by learning to
-communicate technical ideas clearly and respectfully. We want to foster
+From this project,
+ our aim is to gain hands-on experience working
+on group projects collaboratively and develop proficiency in
+asynchronous collaboration and enhance it by learning to
+communicate technical ideas clearly and respectfully. We aim to improve our
+technical capabilities and enhance our flexibility and adaptability to work
+with diverse cultures. We want to foster
 a healthy learning
 environment that provides support and help to every member in need.
-We aim to improve our technical capabilities like working with git and github,
-programming with Python, and problem solving and strategies.
-And develop healthy programming practices like using code review checklists and
-writing unit tests. And enhance collaboration
-by learning to communicate technical ideas clearly and respectfully.
 
-## Individual
+## Individual Goals
 
-- Learn to write more efficient and readable code that can be understood
-and used by any programmer regardless of it's complexity.
-- Gain confidence in contributing to team-based coding projects.
-- Fully understand python basics and get more familiar with it by following guides
-and asking for help.
-- Practice on documenting and testing on different challenges and solutions.
-- Apply what we learned in the foundations track and get used to the workflows
-we were introduced to.
-- Get more familiar with Git commands, and gain experience interacting with the
-Command Line Interface to finish tasks rather than solely relying on the GUI.
-- Get used to GitHub's UI and how to interact with it and learn how
-to maximize it's capabilities.
+- **Clement**
+  - Learn to write more efficient and readable code.  
+  - Gain confidence in contributing to team-based coding projects.
+  - Learn python.
+  
+- **Mohamed**
+  - Get more familiar with GitHib and Git commands, and gain experience interacting
+  with the Command Line Interface to finish
+  tasks rather than solely relying on the GUI.
+  - Improve and practice on programming with python, and apply and master the
+  workflows we learned in the foundations track like
+   documenting and testing and TDD.
+  - Gain more experience in working on group projects.
+
+- **Obey**
+  - Fully understand python basics from Evan's guides.
+  - Write clear code that is easy to be understood even if it is complex.
+  - goal 3 ... etc
+
+- **Razan**
+  <!-- - goal 1 -->
+  <!-- - goal 2 ... etc -->
+  
+- **Anas**
+  <!-- - goal 1 -->
+  <!-- - goal 2 ... etc -->
+
+- **Fahed**
+  <!-- - goal 1 -->
+  <!-- - goal 2 ... etc -->
+
+- **Faisal**
+  <!-- - goal 1 -->
+  <!-- - goal 2 ... etc -->
+
+- **Majd**
+  <!-- - goal 1 -->
+  <!-- - goal 2 ... etc -->
+
+- **Özgür**
+ <!-- - goal 1 -->
+ <!-- - goal 2 ... etc -->
