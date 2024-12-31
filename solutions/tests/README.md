@@ -10,10 +10,7 @@ This document outlines the structure, guidelines, and standards for the test
 ## Table of Contents
 
 1. [Test Structure](#test-structure)
-2. [Testing Guidelines](#testing-guidelines)
-3. [Test Standards](#test-standards)
-4. [Test Coverage](#test-coverage)
-5. [Running Tests](#running-tests)
+2. [Test Coverage](#test-coverage)
 
 ---
 
@@ -30,11 +27,7 @@ The test solutions are organized into the following directories:
 
 - **Test files**: Should follow the pattern `test_<module_name>.py`.
 - **Test functions**: Should be named `test_<functionality>`, e.g., `test_login`.
-
----
-
-## Testing Guidelines
-
+  
 ### Writing Tests
 
 - **Isolate Tests**: Each test should be independent and should not rely on
@@ -58,89 +51,7 @@ The test solutions are organized into the following directories:
    `coverage.py` or `pytest-cov` to ensure all edge cases, normal cases, and
     error-handling scenarios are tested.
 
-### Test Dependencies
-
-- Use dependency management tools (e.g., `pip`, `npm`, `Docker`) to manage and
-   isolate test dependencies.
-  
-- Ensure test dependencies are listed in `requirements.txt`
-   (for Python projects) or `package.json` (for JavaScript projects).
-
 ---
 
-## Test Standards
-
-### Test Reporting
-
-- **Reporting Format**: Automated test results should include:
-  - Summary of passed/failed tests.
-  - Execution time.
-  - Error messages and stack traces for any failed tests.
-
-- **CI/CD Integration**: Automated test reports should be integrated into the
-   CI/CD pipeline to provide stakeholders with real-time feedback.
-
-### Code Quality
-
-- **Follow Coding Standards**: Adhere to established coding standards (e.g.,
-   PEP 8 for Python, ESLint for JavaScript).
-  
-- **Commenting**: Ensure test code is well-commented and easily readable for maintainability.
-  
-- **Refactoring**: Periodically refactor test cases to ensure they remain
-   relevant and maintainable as the application evolves.
-
----
-
-## Running Tests
-
-To ensure the quality of the codebase, it's important to run tests regularly.
- Here's how to run the tests:
-
-1. **Install Dependencies**: Ensure all necessary libraries are installed.
-    - For Python projects:
-
-      ```bash
-      pip install -r requirements.txt
-      ```
-
-    - For JavaScript/Node.js projects:
-
-      ```bash
-      npm install
-      ```
-
-2. **Run Unit Tests**: Unit tests validate individual components.
-    - Using `pytest`:
-
-      ```bash
-      pytest tests/unit/
-      ```
-
-    - Or with `unittest`:
-
-      ```bash
-      python -m unittest discover tests/unit/
-      ```
-
-3. **Run Other Tests**: Similarly run integration, functional, and end-to-end tests:
-    - Integration tests:
-
-      ```bash
-      pytest tests/integration/
-      ```
-
-    - Functional tests:
-
-      ```bash
-      pytest tests/functional/
-      ```
-
-    - End-to-end tests:
-
-      ```bash
-      pytest tests/e2e/
-      ```
-
-4. **Review Results**: Check the output to see which tests passed or failed.
+ **Review Results**: Check the output to see which tests passed or failed.
     Errors will include detailed stack traces for debugging.
