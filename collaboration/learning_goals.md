@@ -22,12 +22,14 @@ environment that provides support and help to every member in need.
 
 ## Individual Goals
 
-- **Clement**
+- ### **Clement**
+
   - Learn to write more efficient and readable code.  
   - Gain confidence in contributing to team-based coding projects.
   - Learn python.
   
-- **Mohamed**
+- ### **Mohamed**
+
   - Get more familiar with GitHib and Git commands, and gain experience interacting
   with the Command Line Interface to finish
   tasks rather than solely relying on the GUI.
@@ -36,31 +38,39 @@ environment that provides support and help to every member in need.
    documenting and testing and TDD.
   - Gain more experience in working on group projects.
 
-- **Obey**
+- ### **Obey**
+
   - Fully understand python basics from Evan's guides.
   - Write clear code that is easy to be understood even if it is complex.
-  - goal 3 ... etc
 
-- **Razan**
-  <!-- - goal 1 -->
-  <!-- - goal 2 ... etc -->
-  
-- **Anas**
-  <!-- - goal 1 -->
-  <!-- - goal 2 ... etc -->
+- ### **Razan Ibrahim**
 
-- **Fahed**
-  <!-- - goal 1 -->
-  <!-- - goal 2 ... etc -->
+  - Sharpen skills in creating detailed and structured documentation and tests to
+  support project work.
+  - Improve debugging techniques to efficiently identify and resolve errors.
+  - Write clear and maintainable code that is easily comprehensible to others.
 
-- **Faisal**
+- ### **Anas**
+
   <!-- - goal 1 -->
   <!-- - goal 2 ... etc -->
 
-- **Majd**
+- ### **Fahed**
+
   <!-- - goal 1 -->
   <!-- - goal 2 ... etc -->
 
-- **Özgür**
+- ### **Faisal**
+
+  <!-- - goal 1 -->
+  <!-- - goal 2 ... etc -->
+
+- ### **Majd**
+
+  <!-- - goal 1 -->
+  <!-- - goal 2 ... etc -->
+
+- ### **Özgür**
+
  <!-- - goal 1 -->
  <!-- - goal 2 ... etc -->
