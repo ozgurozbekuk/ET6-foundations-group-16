@@ -235,7 +235,6 @@ changes, or merge both sets of changes.
 This guide will help you contribute effectively and explains the best practices
 for contributing to the project.
 ```
-<!-- I break the rule to show an example-->
 
 **In the Python file,** you could keep both greetings or choose one:
 
@@ -258,7 +257,7 @@ def greeting():
 This guide will help you contribute effectively and explains the best practices
 for contributing to the project.
 ```
-<!-- I break the rule to show an example -->
+
 ---
 By following these steps, you'll resolve conflicts easily, whether you'er working
 on a **Markdown** file or a **Python file**. The key is to understand the
