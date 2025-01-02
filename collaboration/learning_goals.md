@@ -50,10 +50,13 @@ environment that provides support and help to every member in need.
   - Improve debugging techniques to efficiently identify and resolve errors.
   - Write clear and maintainable code that is easily comprehensible to others.
 
-- ### **Anas**
+- ### **Anas Ziadah**
 
-  <!-- - goal 1 -->
-  <!-- - goal 2 ... etc -->
+  - Learn how to contribute effectively to collaborative projects.
+  - Enhance my communication skills, especially in technical contexts.
+  - Improve my proficiency in using GitHub and other collaborative tools.
+  - Enhance my understanding of Python syntax and best practices for writing clean
+   and efficient code.
 
 - ### **Fahed**
 
