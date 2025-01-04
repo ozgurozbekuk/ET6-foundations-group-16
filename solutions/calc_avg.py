@@ -10,6 +10,9 @@ def calculate_average(numbers):
 
     Returns -> float or None: the average of all numbers. If the list is empty,
     returns None.
+
+    Raises:
+        AssertionError: if any element in the list is not an int or float
     """
     if not numbers:
         return None
