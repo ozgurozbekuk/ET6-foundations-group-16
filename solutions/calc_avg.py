@@ -34,6 +34,7 @@ def calculate_average(numbers):
         >>> calculate_average([100])
         100.0
     """
+
     if not numbers:
         return None
 
