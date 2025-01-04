@@ -55,7 +55,7 @@ With that in mind, let's dive into the steps for contributing! 🏁
 
  ### 🌟  Creating a Pull Request (PR)
 
-#### 🚀 Open a Pull Request
+### 🚀 Open a Pull Request
 
 1.**Navigate to Your Repository**:
 
@@ -94,7 +94,7 @@ original repository.
 - 🏷️ Label It: Use labels to categorize your pull request (e.g., “bug”,
 “enhancement”, “documentation”).
 
- #### 🔍 Reviewing a Pull Request
+ ### 🔍 Reviewing a Pull Request
 
 1. **Check the Code**:
    - 🧐 Inspect the Code: Dive into the code changes. Ensure they follow the
@@ -113,7 +113,7 @@ original repository.
    - 🔄 Request Changes: If tweaks are needed, request changes and provide clear
     instructions.
 
-#### 🔄 Merging a Pull Request
+### 🔄 Merging a Pull Request
 
 1. **Ensure All Checks Pass**:
    - ✔️ Check the Checks: Make sure all automated tests and checks are green-lit
@@ -126,7 +126,7 @@ original repository.
 3. **Delete the Branch**:
    - 🗑️ Clean Up: After merging, delete the branch to keep the repository neat
     and organized.
-#### Convert to Draft PR
+### Convert to Draft PR
 - Click "Convert to draft" when your PR needs more work.
 
 - When Ready for Review
@@ -135,7 +135,7 @@ Click "Ready for review" when the PR is complete and ready for review.
 - Good Draft PR Title:
 🔄 [WIP] Add user authentication system
 
-#### Good PR Example
+### Good PR Example
 
 - Changes: 3-5 files
 - Lines of Code: ~200 lines
@@ -148,7 +148,7 @@ Avoid
 - Feature Focus: Multiple features mixed
 
 
-#### Merge Conflicts
+### Merge Conflicts
 
  **If You Get Merge Conflicts**:
 
