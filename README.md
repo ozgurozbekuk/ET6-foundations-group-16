@@ -8,7 +8,7 @@ challenges, crafting solutions and learning the art of coding. 🌐
 This repository is dedicated to showcasing our team's approach to tackling a
 variety of challenges, primarily focusing on Python implementations 🐍,
 but also exploring unittesting and version control systems (Git & GitHub).  
-Our work includes **comprehensive testing** 🔍, ensuring quality and reliability,  
+Our work includes **comprehensive testing** 🔍, ensuring quality and reliability,
 as well as **detailed documentation** 📝, so that every piece of our work is transparent, understandable, and replicable.  
 
 With every line of code we write, we’re building a new version of the Matrix — one where logic and creativity seamlessly intertwine.  
