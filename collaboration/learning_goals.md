@@ -70,8 +70,13 @@ environment that provides support and help to every member in need.
 
 - ### **Majd**
 
-  <!-- - goal 1 -->
-  <!-- - goal 2 ... etc -->
+  - Fully master Python and improve
+ coding skills through exercises.
+  - Debug effectively using Evan’s guides.
+  - Write clean, efficient, and maintainable Python code.
+  - Gain proficiency in using Git and GitHub.
+  - Deepen understanding of documentation and testing.
+  - Enhance communication and collaborative skills for a more effective work environment.
 
 - ### **Özgür**
 
