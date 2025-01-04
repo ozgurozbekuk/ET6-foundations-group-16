@@ -29,13 +29,6 @@ def spiral_traverse(matrix):
     - ValueError: If the input is not a valid 2D list or contains non-numeric elements.
 
     Example:
-    >>> spiral_traverse([
-    ...     [1, 2, 3],
-    ...     [4, 5, 6],
-    ...     [7, 8, 9]
-    ... ])
-    [1, 2, 3, 6, 9, 8, 7, 4, 5]
-
     >>> spiral_traverse([[1, 2], [3, 4]])
     [1, 2, 4, 3]
 
