@@ -1,6 +1,6 @@
 import unittest
 
-from solutions.matrix_spiral_traversal import spiral_traverse
+from solutions.spiral_traversal import spiral_traverse
 
 
 class TestSpiralTraversal(unittest.TestCase):
