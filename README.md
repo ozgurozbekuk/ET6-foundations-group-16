@@ -16,7 +16,8 @@ With every line of code we write, we’re building a new version of the
 Matrix — one where logic and creativity seamlessly intertwine.  
 💻 Choose the code. Follow the logic. Embrace the Matrix. 🔒🌱
 
-Stay tuned for future updates as we continue to evolve, learn, and grow in this digital journey. 🚀  
+Stay tuned for future updates as we continue to evolve, learn, and grow in this
+digital journey. 🚀  
 
 ---
 
