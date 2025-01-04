@@ -32,6 +32,12 @@ def spiral_traverse(matrix):
     ...     [7, 8, 9]
     ... ])
     [1, 2, 3, 6, 9, 8, 7, 4, 5]
+    
+    >>> spiral_traverse([[1, 2], [3, 4]])
+    [1, 2, 4, 3]
+    
+    >>> spiral_traverse([[1]])
+    [1]
     """
     # Defensive assertions
     if not isinstance(matrix, list) or any(not isinstance(row, list) for row in matrix):
