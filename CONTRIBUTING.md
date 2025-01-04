@@ -139,7 +139,9 @@ original repository.
 ### Convert to Draft PR
 
 - Click "Convert to draft" when your PR needs more work.
-- When Ready for Review: Click "Ready for review" when the PR is complete and ready for review.
+- When Ready for Review: Click "Ready for review"
+ when the PR is complete
+ and ready for review.
 - Good Draft PR Title:
 🔄 [WIP] Add user authentication system
 
