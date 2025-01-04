@@ -10,6 +10,7 @@ Test categories:
 """
 
 import unittest
+
 from solutions.calc_avg import calculate_average
 
 
