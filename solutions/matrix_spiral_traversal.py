@@ -22,6 +22,9 @@ def spiral_traverse(matrix):
     Returns:
     - list of int: A list of elements from the matrix in spiral order.
 
+    Raises:
+    - ValueError: If the input is not a valid 2D list or contains non-numeric elements.
+
     Example:
     >>> spiral_traverse([
     ...     [1, 2, 3],
@@ -30,6 +33,12 @@ def spiral_traverse(matrix):
     ... ])
     [1, 2, 3, 6, 9, 8, 7, 4, 5]
     """
+    # Defensive assertions
+    if not isinstance(matrix, list) or any(not isinstance(row, list) for row in matrix):
+        raise ValueError("Input must be a 2D list (matrix).")
+    if any(not all(isinstance(item, (int, float)) for item in row) for row in matrix):
+        raise ValueError("All elements in the matrix must be numeric.")
+
     result = []
 
     while matrix:
