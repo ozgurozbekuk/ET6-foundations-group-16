@@ -1,5 +1,5 @@
 """
-spiral_traversal.py
+spiral_traverse.py
 
 This module provides a function to traverse a 2D matrix in spiral order.
 
