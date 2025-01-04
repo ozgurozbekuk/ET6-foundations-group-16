@@ -53,15 +53,11 @@ With that in mind, let's dive into the steps for contributing! 🏁
 <!-- Add Break line or Boundary at
  the End of your part to keep it nice and organized  -->
 
- 🌟  Creating a Pull Request (PR)
+## 🌟  Creating a Pull Request (PR)
 
-<<<<<<< HEAD
-### Open a Pull Request 🚀
-=======
-### 🚀 Open a Pull Request
->>>>>>> ab9e490607574807ce9c9d1c057653dd25cda218
+## 🚀 Open a Pull Request
 
-1.**Navigate to Your Repository**:
+### Navigate to Your Repository
 
 Head over to your forked repository on GitHub, where your code changes are
 waiting to shine.
@@ -71,7 +67,7 @@ waiting to shine.
 - Go to your forked repository on GitHub.
 - Switch to the branch where you made your changes.
 
-2.**Compare & Pull Request**:
+### Compare & Pull Request
 
 Spot the “Compare & pull request” button? Give it a click to start the magic.
 
@@ -81,91 +77,80 @@ Spot the “Compare & pull request” button? Give it a click to start the magic
 - Compare your branch to the base branch of the
 original repository.
 
-3.**Fill Out the PR Template**:
+### Fill Out the PR Template
 
 - 🎨 Title: Craft a catchy yet informative title for your pull request.
   - 📝 Description: Paint a picture of your changes. Explain what you did, why it
   matters, and any issues it resolves (e.g., “Fixes 42”).
   - 🔗 Link Issues: Connect your PR to relevant issues by mentioning them.
 
-4.**Assign Reviewers**:
+### Assign Reviewers
 
 - 🕵️‍♂️ Choose Your Reviewers: Select team members to review your masterpiece.
  This can be done in the right sidebar under “Reviewers.”
 
-5.**Add Labels**:
+### Add Labels
 
 - 🏷️ Label It: Use labels to categorize your pull request (e.g., “bug”,
 “enhancement”, “documentation”).
 
-<<<<<<< HEAD
-### 🔍 Reviewing a Pull Request
-=======
- ### 🔍 Reviewing a Pull Request
->>>>>>> ab9e490607574807ce9c9d1c057653dd25cda218
+## 🔍 Reviewing a Pull Request
 
-1. **Check the Code**:
-   - 🧐 Inspect the Code: Dive into the code changes. Ensure they follow the
+### Check the Code
+
+- 🧐 Inspect the Code: Dive into the code changes. Ensure they follow the
     project's style and guidelines.
 
-2.**Test the Changes**:
+### Test the Changes
 
 - 🧪 Experiment: Pull the branch locally and test the changes. Make sure
     everything works like a charm.
 
-3.**Provide Feedback**:
+### Provide Feedback
 
 - 💬 Comment Constructively: Use inline comments to suggest improvements or
     ask questions. Remember, feedback is a gift!
 
-4.**Approve or Request Changes**:
+### Approve or Request Changes
 
 - ✅ Approve: If everything looks great, give it your seal of approval.
 - 🔄 Request Changes: If tweaks are needed, request changes and provide clear
     instructions.
 
-### 🔄 Merging a Pull Request
+## 🔄 Merging a Pull Request
 
-1. **Ensure All Checks Pass**:
-   - ✔️ Check the Checks: Make sure all automated tests and checks are green-lit
+### Ensure All Checks Pass
+
+- ✔️ Check the Checks: Make sure all automated tests and checks are green-lit
    before merging.
 
-2.**Merge the Pull Request**:
+### Merge the Pull Request
 
 - 🔗 Seal the Deal: Click the “Merge pull request” button and confirm the merge.
 - 🧹 Choose Your Method: Opt for “Squash and merge” for a tidy commit history.
 
-3.**Delete the Branch**:
+### Delete the Branch
 
 - 🗑️ Clean Up: After merging, delete the branch to keep the repository neat
     and organized.
-<<<<<<< HEAD
-
-6.**Convert to Draft PR**
-
-Click "Convert to draft" when your PR needs more work.
+    <<<<<
 =======
+
 ### Convert to Draft PR
+
 - Click "Convert to draft" when your PR needs more work.
->>>>>>> ab9e490607574807ce9c9d1c057653dd25cda218
-
-- When Ready for Review
-Click "Ready for review" when the PR is complete and ready for review.
-
+- When Ready for Review: Click "Ready for review" when the PR is complete and ready for review.
 - Good Draft PR Title:
 🔄 [WIP] Add user authentication system
 
-<<<<<<< HEAD
-7.**Good PR Example**
-Title: "Add login form validation"
-=======
-### Good PR Example
->>>>>>> ab9e490607574807ce9c9d1c057653dd25cda218
+## Good PR Example
 
-Changes: 3-5 files
-Lines of Code: ~200 lines
-Feature Focus: Single, focused feature
-Avoid
+- Title: "Add login form validation"
+- Changes: 3-5 files
+- Lines of Code: ~200 lines
+- Feature Focus: Single, focused feature
+
+## Avoid
 
 - Title: "Update entire user system"
 
@@ -173,15 +158,9 @@ Avoid
 - Lines of Code: 1000+ lines
 - Feature Focus: Multiple features mixed
 
-8.**Merge Conflicts**
+## Merge Conflicts
 
-<<<<<<< HEAD
-  **If You Get Merge Conflicts**:
-=======
-### Merge Conflicts
-
- **If You Get Merge Conflicts**:
->>>>>>> ab9e490607574807ce9c9d1c057653dd25cda218
+If You Get Merge Conflicts
 
 - Checkout your branch:git checkout your-branch
 - Pull the latest changes from main: git pull origin main
