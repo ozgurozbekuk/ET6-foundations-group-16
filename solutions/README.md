@@ -21,7 +21,7 @@ while corresponding test files are maintained in the `tests` folder.
 
 | **Solution File**       | **Description**                   | **Author**|
 |--------------------------|--------------------------------------------------------------|-------------------|
-| `add_numbers.py`| Adds two numbers and returns the result. | [Author Name]   |
+| `calc_avg.py`| Calculates the average of a list of numbers | Clement              |
 
 ---
 
