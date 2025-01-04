@@ -11,7 +11,7 @@ Test categories:
 
 import unittest
 
-from ..calc_avg import calculate_average
+from ..calculate_average import calculate_average
 
 
 class TestCalculateAverage(unittest.TestCase):

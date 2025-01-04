@@ -29,10 +29,14 @@ def calculate_average(numbers):
         30.0
         >>> calculate_average([1.5, 2.5, 3.5])
         2.5
-        >>> calculate_average([])
+        >>> print(calculate_average([]))
         None
         >>> calculate_average([100])
         100.0
+        >>> calculate_average([1, "two", 3])  # doctest: +ELLIPSIS
+        Traceback (most recent call last):
+        ...
+        AssertionError: All elements must be int or float
     """
 
     if not numbers:
