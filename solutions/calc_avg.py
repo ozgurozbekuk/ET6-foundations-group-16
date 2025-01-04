@@ -1,3 +1,13 @@
+#!/usr/bin/env python3
+
+"""
+A module for calculating the average of a list of numbers.
+
+Module contents:
+    - calculate_average: Calculates and returns the average of a list of numbers.
+"""
+
+
 def calculate_average(numbers):
     """Returns the average of a list of numeric values (integers or floats).
 
