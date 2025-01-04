@@ -26,4 +26,7 @@ def calculate_average(numbers):
     """
     if not numbers:
         return None
+
+    for num in numbers:
+        assert isinstance(num, (int, float)), "All elements must be int or float"
     return sum(numbers) / len(numbers)
