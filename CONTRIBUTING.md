@@ -55,7 +55,11 @@ With that in mind, let's dive into the steps for contributing! 🏁
 
  🌟  Creating a Pull Request (PR)
 
+<<<<<<< HEAD
 ### Open a Pull Request 🚀
+=======
+### 🚀 Open a Pull Request
+>>>>>>> ab9e490607574807ce9c9d1c057653dd25cda218
 
 1.**Navigate to Your Repository**:
 
@@ -94,7 +98,11 @@ original repository.
 - 🏷️ Label It: Use labels to categorize your pull request (e.g., “bug”,
 “enhancement”, “documentation”).
 
+<<<<<<< HEAD
 ### 🔍 Reviewing a Pull Request
+=======
+ ### 🔍 Reviewing a Pull Request
+>>>>>>> ab9e490607574807ce9c9d1c057653dd25cda218
 
 1. **Check the Code**:
    - 🧐 Inspect the Code: Dive into the code changes. Ensure they follow the
@@ -116,7 +124,7 @@ original repository.
 - 🔄 Request Changes: If tweaks are needed, request changes and provide clear
     instructions.
 
-#### 🔄 Merging a Pull Request
+### 🔄 Merging a Pull Request
 
 1. **Ensure All Checks Pass**:
    - ✔️ Check the Checks: Make sure all automated tests and checks are green-lit
@@ -131,10 +139,15 @@ original repository.
 
 - 🗑️ Clean Up: After merging, delete the branch to keep the repository neat
     and organized.
+<<<<<<< HEAD
 
 6.**Convert to Draft PR**
 
 Click "Convert to draft" when your PR needs more work.
+=======
+### Convert to Draft PR
+- Click "Convert to draft" when your PR needs more work.
+>>>>>>> ab9e490607574807ce9c9d1c057653dd25cda218
 
 - When Ready for Review
 Click "Ready for review" when the PR is complete and ready for review.
@@ -142,8 +155,12 @@ Click "Ready for review" when the PR is complete and ready for review.
 - Good Draft PR Title:
 🔄 [WIP] Add user authentication system
 
+<<<<<<< HEAD
 7.**Good PR Example**
 Title: "Add login form validation"
+=======
+### Good PR Example
+>>>>>>> ab9e490607574807ce9c9d1c057653dd25cda218
 
 Changes: 3-5 files
 Lines of Code: ~200 lines
@@ -158,7 +175,13 @@ Avoid
 
 8.**Merge Conflicts**
 
+<<<<<<< HEAD
   **If You Get Merge Conflicts**:
+=======
+### Merge Conflicts
+
+ **If You Get Merge Conflicts**:
+>>>>>>> ab9e490607574807ce9c9d1c057653dd25cda218
 
 - Checkout your branch:git checkout your-branch
 - Pull the latest changes from main: git pull origin main
