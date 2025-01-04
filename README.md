@@ -12,7 +12,8 @@ Our work includes **comprehensive testing** 🔍, ensuring quality and reliabili
 as well as **detailed documentation** 📝, so that every piece of our work is
 transparent, understandable, and replicable.  
 
-With every line of code we write, we’re building a new version of the Matrix — one where logic and creativity seamlessly intertwine.  
+With every line of code we write, we’re building a new version of the
+Matrix — one where logic and creativity seamlessly intertwine.  
 💻 Choose the code. Follow the logic. Embrace the Matrix. 🔒🌱
 
 Stay tuned for future updates as we continue to evolve, learn, and grow in this digital journey. 🚀  
