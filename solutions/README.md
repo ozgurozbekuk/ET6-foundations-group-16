@@ -22,6 +22,7 @@ while corresponding test files are maintained in the `tests` folder.
 | **Solution File**       | **Description**                   | **Author**|
 |--------------------------|--------------------------------------------------------------|-------------------|
 | `calc_avg.py`| Calculates the average of a list of numbers | Clement  |
+| `matrix_spiral_traversal.py` | Traverses a 2D matrix in spiral order | Fahed |
 
 ---
 
