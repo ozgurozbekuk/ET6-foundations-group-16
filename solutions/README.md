@@ -23,6 +23,7 @@ while corresponding test files are maintained in the `tests` folder.
 |--------------------------|--------------------------------------------------------------|-------------------|
 | `calc_avg.py`| Calculates the average of a list of numbers | Clement  |
 | `spiral_traverse.py` | Traverses a 2D matrix in spiral order | Fahed |
+| `check_odd_or_even.py` | Checks if a number is odd or even | Clement |
 
 ---
 
