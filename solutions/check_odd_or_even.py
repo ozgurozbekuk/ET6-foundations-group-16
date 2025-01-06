@@ -8,7 +8,8 @@ Module contents:
 
 
 def check_odd_or_even(num):
-    """Checks if the provided integer is even or odd.
+    """
+    Checks if the provided integer is even or odd.
 
     Parameters:
         num (int): The integer to check.
@@ -18,6 +19,20 @@ def check_odd_or_even(num):
 
     Raises:
         AssertionError: If num is not an integer.
+
+    Examples:
+        >>> check_odd_or_even(4)
+        'Even'
+        >>> check_odd_or_even(7)
+        'Odd'
+        >>> check_odd_or_even(0)
+        'Even'
+        >>> check_odd_or_even(-3)
+        'Odd'
+        >>> check_odd_or_even(2.5)  # doctest: +ELLIPSIS
+        Traceback (most recent call last):
+        ...
+        AssertionError: num must be an integer
     """
     assert isinstance(num, int), "num must be an integer"
     return "Even" if num % 2 == 0 else "Odd"
