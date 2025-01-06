@@ -60,8 +60,11 @@ environment that provides support and help to every member in need.
 
 - ### **Fahed**
 
-  <!-- - goal 1 -->
-  <!-- - goal 2 ... etc -->
+  - Deepen understanding of Python programming.
+  - Master Git and GitHub workflows for seamless team collaboration.
+  - Enhance debugging techniques to quickly identify and resolve complex issues.
+  - Practice creating structured documentation and robust tests.
+  - Improve technical communication skills for contributing effectively to team projects.
 
 - ### **Faisal**
 
