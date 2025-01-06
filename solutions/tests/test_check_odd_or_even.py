@@ -1,3 +1,13 @@
+#!/usr/bin/env python3
+"""
+Test module for check_odd_or_even function.
+
+Test categories:
+    - Standard cases: even and odd numbers
+    - Edge cases: zero, negative numbers
+    - Defensive tests: wrong input types
+"""
+
 import unittest
 
 from solutions.check_odd_or_even import check_odd_or_even
