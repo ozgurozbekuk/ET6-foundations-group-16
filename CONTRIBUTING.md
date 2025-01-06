@@ -47,11 +47,109 @@ With that in mind, let's dive into the steps for contributing! 🏁
 
 ## Guide to Contributing to the Repository 📚
 
-<!--##### @Faisal Minawi:   -->
-<!--Add your part   -->
-<!--Add your part   -->
-<!-- Add Break line or Boundary at
- the End of your part to keep it nice and organized  -->
+### Setting Up the Repository and Cloning It
+
+#### Initial Setup Requirements
+
+- Install Git on your local machine (<https://git-scm.com/downloads>)
+- Install Visual Studio Code (<https://code.visualstudio.com/>)
+- Create a GitHub account if you don't have one
+
+#### Setting Up SSH Keys
+
+1. Open Terminal (Mac/Linux) or Git Bash (Windows)
+2. Generate an SSH key:
+
+   ```bash
+   ssh-keygen -t ed25519 -C "your_email@example.com"
+   ```
+
+3. Start the SSH agent:
+
+   ```bash
+   eval "$(ssh-agent -s)"
+   ```
+
+4. Add your SSH key to the agent:
+
+   ```bash
+   ssh-add ~/.ssh/id_ed25519
+   ```
+
+5. Copy your public key:
+
+   ```bash
+   cat ~/.ssh/id_ed25519.pub
+   ```
+
+6. Add the key to your GitHub account:
+   - Go to GitHub Settings → SSH and GPG keys
+   - Click "New SSH key"
+   - Paste your public key and save
+
+#### Cloning the Repository Using HTTPS vs. SSH
+
+##### Using SSH (Recommended)
+
+```bash
+git clone git@github.com:username/repository.git
+```
+
+##### Using HTTPS
+
+```bash
+git clone https://github.com/username/repository.git
+```
+
+#### Setting Up Your Local Environment
+
+1. Navigate to the project directory:
+
+   ```bash
+   cd repository-name
+   ```
+
+2. Configure your Git identity:
+
+   ```bash
+   git config --global user.name "Your Name"
+   git config --global user.email "your_email@example.com"
+   ```
+
+3. Open the project in VS Code:
+
+   ```bash
+   code .
+   ```
+
+#### Making Your First Commit
+
+1. Create or modify a file in your repository
+2. Stage your changes:
+
+   ```bash
+   git add .
+   ```
+
+3. Commit your changes:
+
+   ```bash
+   git commit -m "Initial commit: Add project setup files"
+   ```
+
+4. Push to the main branch:
+
+   ```bash
+   git push origin main
+   ```
+
+#### Troubleshooting Common Setup Issues
+
+- If you encounter permission denied errors, verify your SSH key is properly added to GitHub
+- For SSL certificate issues, ensure your Git installation is up to date
+- If VS Code doesn't recognize Git, restart VS Code after Git installation
+
+---
 
 ## 🌟  Creating a Pull Request (PR)
 
