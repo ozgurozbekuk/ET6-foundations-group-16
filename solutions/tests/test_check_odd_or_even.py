@@ -28,6 +28,12 @@ class TestCheckOddOrEven(unittest.TestCase):
         """It should return 'Odd' for a negative odd number."""
         self.assertEqual(check_odd_or_even(-3), "Odd")
 
+    # Defensive tests
+    def test_non_integer_raises_assertion(self):
+        """It should raise AssertionError when passing a non-integer."""
+        with self.assertRaises(AssertionError):
+            check_odd_or_even(3.14)
+
 
 if __name__ == "__main__":
     unittest.main()
