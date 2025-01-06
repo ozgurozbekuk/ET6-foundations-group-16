@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Test nodule for basic_calculator function
+Test module for simple_calculator function
 
 Test categories:
  -Standard cases: typical inputs
@@ -19,7 +19,7 @@ from ..simple_calculator import simple_calculator
 
 
 class TestSimpleCalculator(unittest.TestCase):
-    """Test suite for the basic_calculator function"""
+    """Test suite for the simple_calculator function"""
 
     # Standard test cases
     def test_addition_normal_inputs(self):
@@ -40,19 +40,13 @@ class TestSimpleCalculator(unittest.TestCase):
         self.assertEqual(simple_calculator("*", 7, 17), 119)
 
     # Edge cases
-
     def test_multiplication_large_numbers(self):
         """it should multiply the two numbers"""
         self.assertEqual(simple_calculator("*", 257753347, 1000000), 257753347000000)
 
     def test_division_large_numbers(self):
-        """it should perform division between the two numbers"""
+        """it should perform division between the two large numbers"""
         self.assertEqual(simple_calculator("/", 2577533479764, 7872764782), 327.399)
-
-    def test_undefined_operation(self):
-        """it should return nothing if the operation is not one of
-        the four basic operations"""
-        self.assertEqual(simple_calculator("**", 9, 2), None)
 
     def test_negative_numbers(self):
         """it should perform operations on negative numbers"""
@@ -60,21 +54,26 @@ class TestSimpleCalculator(unittest.TestCase):
 
     # Defensive tests
     def test_non_string_input_operation(self):
-        """It should raise AssertionError if input operation is not a string"""
-        with self.assertRaises(AssertionError):
+        """It should raise TypeError if input operation is not a string"""
+        with self.assertRaises(TypeError):
             simple_calculator(2, 3, 5)
 
     def test_non_integer_input_first_operand(self):
-        """It should raise AssertionError if first operand is not an integer"""
-        with self.assertRaises(AssertionError):
+        """It should raise TypeError if first operand is not an integer"""
+        with self.assertRaises(TypeError):
             simple_calculator("*", 3.78, 45)
 
     def test_non_integer_input_second_operand(self):
-        """It should raise AssertionError if second operand is not an integer"""
-        with self.assertRaises(AssertionError):
+        """It should raise TypeError if second operand is not an integer"""
+        with self.assertRaises(TypeError):
             simple_calculator("*", 3, 45.876)
 
     def test_division_by_zero(self):
-        """It should raise AssertionError if second operand in division_is_zero"""
-        with self.assertRaises(AssertionError):
+        """It should raise ZeroDivisionError if second operand in division is zero"""
+        with self.assertRaises(ZeroDivisionError):
             simple_calculator("/", 38, 0)
+
+    def test_unsupported_operation(self):
+        """It should raise ValueError if the operation is not one the four basic operations"""
+        with self.assertRaises(ValueError):
+            simple_calculator("**", 38, 0)

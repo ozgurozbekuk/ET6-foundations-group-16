@@ -24,14 +24,16 @@ def simple_calculator(operation: str, operand1: int, operand2: int):
 
 
     Returns-> int or float: the result of the operation on the
-                two numbers rounded to three digits if it is a fraction
-                or none if the operation is not one of the four basic operations
+                two numbers rounded to three digits if it is a fraction.
+
+            None : if the operation is not one of the four basic operations.
 
     Raises:
-    AssertionError: if the first argument is not a string
-    AssertionError: if the second argument is not an integer
-    AssertionError: if the third argument is not an integer
-    AssertionError: if the second operand in division is zero
+    TypeError: if operation isn't a string
+    TypeError: if any of the operands is not an integer
+    ZeroDivisionError: If the second argument in division is zero
+    ValueError: if the operation is not supported
+
 
     >>> simple_calculator('+', 3, 8)
     11
@@ -43,31 +45,27 @@ def simple_calculator(operation: str, operand1: int, operand2: int):
     3.5
     """
     # Ensure inputs are correct
-    assert isinstance(operation, str), "operation is not a string"
-    assert isinstance(operand1, int), "first number is not an integer"
-    assert isinstance(operand2, int), "second number is not an integer"
+    if not isinstance(operation, str):
+        raise TypeError("operation must be a string")
+    if not isinstance(operand1, int) or not isinstance(operand2, int):
+        raise TypeError("operands must be integers")
 
-    # Add the first two operands if the operation is addition
+    # Handle the operations
     if operation == "+":
-        result = operand1 + operand2
+        return operand1 + operand2
 
-    # Subtract the two operands if the operation is subtraction
     elif operation == "-":
-        result = operand1 - operand2
+        return operand1 - operand2
 
-    # Multiply the two operands if the operation is multiplication
     elif operation == "*":
-        result = operand1 * operand2
+        return operand1 * operand2
 
-    # Divide the two operands if the operation is division and round the result to three digits
     elif operation == "/":
         # We can't divide by zero
-        assert operand2 != 0
-        result = round(operand1 / operand2, 3)
+        if operand2 == 0:
+            raise ZeroDivisionError("Can't divide by zero")
+        return round(operand1 / operand2, 3)
 
-    # Return nothing if the operation is not one of the four basic operations
+    # Unsupported operations raise an error
     else:
-        result = None
-
-    # Return the result
-    return result
+        raise ValueError(f"Unsupported operation: {operation}")
