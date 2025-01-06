@@ -27,11 +27,20 @@ class TestEulerTotient(unittest.TestCase):
     and invalid inputs such as non-integer values, negative numbers, and zero.
     """
 
-    def test_valid_input(self):
+    def test_valid_input_1(self):
         """Test case for valid positive integer input."""
         self.assertEqual(euler_totient(9), 6)
+
+    def test_valid_input_2(self):
+        """Test case for valid positive integer input."""
         self.assertEqual(euler_totient(12), 4)
+
+    def test_valid_input_3(self):
+        """Test case for valid positive integer input."""
         self.assertEqual(euler_totient(5), 4)
+
+    def test_valid_input_4(self):
+        """Test case for valid positive integer input."""
         self.assertEqual(euler_totient(1), 1)
 
     def test_invalid_input_negative(self):
@@ -44,10 +53,13 @@ class TestEulerTotient(unittest.TestCase):
         with self.assertRaises(ValueError):
             euler_totient(0)
 
-    def test_invalid_input_non_integer(self):
-        """Test case for non-integer input."""
+    def test_invalid_input_non_integer_string(self):
+        """Test case for non-integer string input."""
         with self.assertRaises(ValueError):
             euler_totient("string")
+
+    def test_invalid_input_non_integer_float(self):
+        """Test case for non-integer float input."""
         with self.assertRaises(ValueError):
             euler_totient(3.5)
 
@@ -55,9 +67,12 @@ class TestEulerTotient(unittest.TestCase):
         """Test case for a large positive integer."""
         self.assertEqual(euler_totient(1000), 400)
 
-    def test_prime_number(self):
+    def test_prime_number_1(self):
         """Test case for prime number input."""
         self.assertEqual(euler_totient(7), 6)
+
+    def test_prime_number_2(self):
+        """Test case for prime number input."""
         self.assertEqual(euler_totient(13), 12)
 
 
