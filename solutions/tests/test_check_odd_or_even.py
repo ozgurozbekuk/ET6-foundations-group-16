@@ -10,7 +10,7 @@ Test categories:
 
 import unittest
 
-from solutions.check_odd_or_even import check_odd_or_even
+from ..check_odd_or_even import check_odd_or_even
 
 
 class TestCheckOddOrEven(unittest.TestCase):
