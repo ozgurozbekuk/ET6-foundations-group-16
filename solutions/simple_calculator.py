@@ -4,12 +4,13 @@
 A module for performing multiplication, division, summation, or subtraction
 operations between two numbers.
 
-Module contents:
-    - simple_calculator: performs basic operations on two integers .
-
 Created on 5/1/2024
 @author: Mohamed Altayeb
 Group: ET foundations group 16 (Matrix)
+
+Module contents:
+    - simple_calculator: performs basic operations on two integers .
+
 """
 
 
