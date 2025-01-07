@@ -15,6 +15,7 @@ Group: ET foundations group 16 (Matrix)
 
 def simple_calculator(operation: str, operand1: int, operand2: int):
     """
+    Performs simple arithmetic operations on two input integers passed to it.
     Parameters:
         operation (str): this is the type of operation we want to perform
                         it should be ('+', '-', '*', or '/')
@@ -26,7 +27,7 @@ def simple_calculator(operation: str, operand1: int, operand2: int):
     Returns-> int or float: the result of the operation on the
                 two numbers rounded to three digits if it is a fraction.
 
-            None : if the operation is not one of the four basic operations.
+
 
     Raises:
     TypeError: if operation isn't a string
