@@ -36,15 +36,17 @@ def euler_totient(n):
         >>> euler_totient(0)
         Traceback (most recent call last):
             ...
-        AssertionError: Input must be a positive integer.
+        ValueError: Input must be a positive integer.
         >>> euler_totient(-5)
         Traceback (most recent call last):
             ...
-        AssertionError: Input must be a positive integer.
+        ValueError: Input must be a positive integer.
     """
-    # Defensive assertions
-    assert isinstance(n, int), "Input must be an integer."
-    assert n > 0, "Input must be a positive integer."
+    # Validate input
+    if not isinstance(n, int):
+        raise ValueError("Input must be an integer.")
+    if n <= 0:
+        raise ValueError("Input must be a positive integer.")
 
     result = n
     for i in range(2, int(n**0.5) + 1):
