@@ -4,6 +4,10 @@ A module for determining if a number is even or odd.
 
 Module contents:
     - check_odd_or_even: Returns "Even" if the number is even, "Odd" otherwise.
+
+Author: Clement MUGISHA
+Date:7th January 2025
+Group: ET6-foundations-group-16
 """
 
 
