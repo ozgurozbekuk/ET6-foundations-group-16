@@ -37,7 +37,7 @@ class TestGreatestNum(unittest.TestCase):
         self.assertEqual(actual, expected)
 
     def test_list_of_mixed_numeric_values(self):
-        """ Test case where the list contains a mix of integers, floats, positive,
+        """Test case where the list contains a mix of integers, floats, positive,
         and negative numbers.The function should return
         the greatest numeric value 43.5, regardless of type (int/float)"""
         actual = greatest_number([22, 43.5, -67, -600, -10000, 2.5])
@@ -45,30 +45,29 @@ class TestGreatestNum(unittest.TestCase):
         self.assertEqual(actual, expected)
 
     def test_list_of_with_non_numeric_element(self):
-        """ Test case where the list contains mixed types (numeric and non-numeric elements).
+        """Test case where the list contains mixed types (numeric and non-numeric elements).
         The function should return the greatest numeric value
         which it is 204.37.(ignoring non-numeric elements.)"""
-        actual = greatest_number([100, True, -20, 204.37,"MIT" ])
-        expected= 204.37
+        actual = greatest_number([100, True, -20, 204.37, "MIT"])
+        expected = 204.37
         self.assertEqual(actual, expected)
 
-    #Test Edge Cases
-    def test_one_element_in_list (self):
+    # Test Edge Cases
+    def test_one_element_in_list(self):
         """Test case where the list contains only one element.
         The function should return that element as the greatest number -4."""
-        actual=greatest_number([-4])
-        expected= -4
+        actual = greatest_number([-4])
+        expected = -4
         self.assertEqual(actual, expected)
 
-    def test_very_long_list (self):
-        """ Test case with a very long list containing numbers from 0 to 234544.
+    def test_very_long_list(self):
+        """Test case with a very long list containing numbers from 0 to 234544.
         The function should return the greatest number (234544)."""
         # generate a long list contain elements from 0 to 234544
         long_list = [i for i in range(234545)]
         actual = greatest_number(long_list)
         expected = 234544
-        self.assertEqual (actual, expected)
-
+        self.assertEqual(actual, expected)
 
     # Test Defensive Cases
     def test_empty_list(self):
@@ -80,12 +79,13 @@ class TestGreatestNum(unittest.TestCase):
         """Test case with a list containing only non-numeric elements.
         The function should raise an AssertionError"""
         with self.assertRaises(AssertionError):
-            greatest_number([True, "great", "number", "MIT Emerging Talent",[1,2,3]])
+            greatest_number([True, "great", "number", "MIT Emerging Talent", [1, 2, 3]])
 
-    def test_input_is_not_list (self):
-        """Test case where the input is not a list. The function should raise an AssertionError """
+    def test_input_is_not_list(self):
+        """Test case where the input is not a list. The function should raise an AssertionError"""
         with self.assertRaises(AssertionError):
             greatest_number(23)
+
 
 if __name__ == "__main__":
     unittest.main()

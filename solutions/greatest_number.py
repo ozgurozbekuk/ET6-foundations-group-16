@@ -12,7 +12,7 @@ Group: Matrix (ET foundations group 16 )
 """
 
 
-def greatest_number(data: list) -> float| int:
+def greatest_number(data: list) -> float | int:
     """
     This function receives a list of values and returns the greatest numeric value
     within the list. The list may contain integers and floats. If the list contains
@@ -43,8 +43,8 @@ def greatest_number(data: list) -> float| int:
     assert isinstance(data, list), "The input isn't a list"
     assert data != [], "This is an empty list "
     assert any(
-        isinstance(item, (int, float)) for item in data
-    ), "The list doesn't contain any numeric value (integer or float)"
+        isinstance(item, (int, float)) and not isinstance(item, bool) for item in data
+    ), "The list doesn't contain any numeric value (integer or float, excluding bool)."
 
     # initialize the greatest value to None
     greatest_value = data[0]
