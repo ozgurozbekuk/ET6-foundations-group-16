@@ -6,12 +6,12 @@ Module contents:
     - check_odd_or_even: Returns "Even" if the number is even, "Odd" otherwise.
 
 Author: Clement MUGISHA
-Date:7th January 2025
+Date: 7th January 2025
 Group: ET6-foundations-group-16
 """
 
 
-def check_odd_or_even(num):
+def check_odd_or_even(num: int) -> str:
     """
     Checks if the provided integer is even or odd.
 
