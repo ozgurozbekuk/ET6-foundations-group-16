@@ -4,7 +4,7 @@ Test module for check_odd_or_even function.
 
 Test categories:
     - Standard cases: even and odd numbers
-    - Edge cases: zero, negative numbers
+    - Edge cases: zero, negative numbers, large numbers
     - Defensive tests: wrong input types
 """
 
@@ -38,11 +38,20 @@ class TestCheckOddOrEven(unittest.TestCase):
         """It should return 'Odd' for a negative odd number."""
         self.assertEqual(check_odd_or_even(-3), "Odd")
 
+    def test_large_even_number(self):
+        """It should return 'Even' for a large even number."""
+        self.assertEqual(check_odd_or_even(10**18), "Even")
+
+    def test_large_odd_number(self):
+        """It should return 'Odd' for a large odd number."""
+        self.assertEqual(check_odd_or_even(10**18 + 1), "Odd")
+
     # Defensive tests
     def test_non_integer_raises_assertion(self):
         """It should raise AssertionError when passing a non-integer."""
-        with self.assertRaises(AssertionError):
+        with self.assertRaises(AssertionError) as context:
             check_odd_or_even(3.14)
+        self.assertEqual(str(context.exception), "num must be an integer")
 
 
 if __name__ == "__main__":
