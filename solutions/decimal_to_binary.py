@@ -11,10 +11,10 @@ Created: 2025-01-07
 """
 
 
-def decimal_to_binary(decimal: int) -> str:
+def decimal_to_binary(decimal):
     """Converts a decimal number to its binary equivalent.
 
-    The conversion is done using the division-by-2 method. Raises an error for negative numbers.
+    The conversion is done using the division-by-2 method. Raises an error for negative numbers or non-integer inputs.
 
     Parameters:
         decimal: int, the decimal number to convert.
@@ -23,7 +23,8 @@ def decimal_to_binary(decimal: int) -> str:
         str: The binary equivalent of the decimal number as a string.
 
     Raises:
-        ValueError: If the decimal number is negative.
+        TypeError: If the input is not an integer.
+        ValueError: If the input is a negative number.
 
     Examples:
         >>> decimal_to_binary(10)
@@ -36,9 +37,15 @@ def decimal_to_binary(decimal: int) -> str:
         '11111111'
     """
 
+    # Validate input type
+    if not isinstance(decimal, int):
+        raise TypeError("Input must be an integer.")
+
+    # Assert that the input is non-negative
     if decimal < 0:
         raise ValueError("Negative numbers are not supported.")
 
+    # Handle the special case of zero
     if decimal == 0:
         return "0"
 
