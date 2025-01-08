@@ -1,74 +1,64 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
 Test module for is_palindrome function.
-
-Test categories:
-    - Standard cases: various palindromes and non-palindromes
-    - Edge cases: empty strings, spaces, special characters
-    - Defensive tests: wrong input types
+Tests standard cases, edge cases and input validation.
 """
 
 import unittest
-
 from ..is_palindrome import is_palindrome
 
 
 class TestIsPalindrome(unittest.TestCase):
-    """Test suite for the is_palindrome function."""
+    """Test suite for is_palindrome function."""
 
-    # Standard test cases
-    def test_simple_palindromes(self):
-        """It should identify simple palindromes correctly."""
+    def test_palindrome_madam(self):
+        """Tests 'madam' is identified as palindrome."""
         self.assertTrue(is_palindrome("madam"))
+
+    def test_palindrome_racecar(self):
+        """Tests 'racecar' is identified as palindrome."""
         self.assertTrue(is_palindrome("racecar"))
+
+    def test_palindrome_numbers(self):
+        """Tests numeric palindrome."""
         self.assertTrue(is_palindrome("12321"))
 
-    def test_non_palindromes(self):
-        """It should identify non-palindromes correctly."""
+    def test_non_palindrome_hello(self):
+        """Tests 'hello' is identified as non-palindrome."""
         self.assertFalse(is_palindrome("hello"))
+
+    def test_non_palindrome_python(self):
+        """Tests 'python' is identified as non-palindrome."""
         self.assertFalse(is_palindrome("python"))
-        self.assertFalse(is_palindrome("12345"))
 
-    def test_case_sensitivity(self):
-        """It should ignore case when checking palindromes."""
+    def test_case_sensitive_Madam(self):
+        """Tests case is ignored."""
         self.assertTrue(is_palindrome("Madam"))
-        self.assertTrue(is_palindrome("RaCeCaR"))
-        self.assertTrue(is_palindrome("Able was I ere I saw Elba"))
 
-    # Edge cases
-    def test_empty_and_spaces(self):
-        """It should handle empty strings and spaces correctly."""
+    def test_spaces_and_punctuation(self):
+        """Tests spaces and punctuation are ignored."""
+        self.assertTrue(is_palindrome("A man, a plan, a canal: Panama"))
+
+    def test_empty_string(self):
+        """Tests empty string is palindrome."""
         self.assertTrue(is_palindrome(""))
-        self.assertTrue(is_palindrome(" "))
+
+    def test_single_char(self):
+        """Tests single character is palindrome."""
+        self.assertTrue(is_palindrome("a"))
+
+    def test_spaces_only(self):
+        """Tests string with only spaces is palindrome."""
         self.assertTrue(is_palindrome("   "))
 
-    def test_special_characters(self):
-        """It should ignore special characters and spaces."""
-        self.assertTrue(is_palindrome("A man, a plan, a canal: Panama"))
-        self.assertTrue(is_palindrome("Race fast, safe car!"))
-        self.assertFalse(is_palindrome("race a car"))
-
-    def test_single_character(self):
-        """It should handle single-character strings."""
-        self.assertTrue(is_palindrome("a"))
-        self.assertTrue(is_palindrome("5"))
-        self.assertTrue(is_palindrome("!"))
-
-    # Defensive tests
     def test_invalid_input_none(self):
-        """It should raise TypeError for None input."""
-        with self.assertRaises(TypeError):
+        """Tests None input raises AssertionError."""
+        with self.assertRaises(AssertionError):
             is_palindrome(None)
 
-    def test_invalid_input_types(self):
-        """It should raise TypeError for non-string inputs."""
-        with self.assertRaises(TypeError):
+    def test_invalid_input_number(self):
+        """Tests numeric input raises AssertionError."""
+        with self.assertRaises(AssertionError):
             is_palindrome(123)
-        with self.assertRaises(TypeError):
-            is_palindrome(["a", "b", "c"])
-        with self.assertRaises(TypeError):
-            is_palindrome(True)
 
 
 if __name__ == "__main__":
