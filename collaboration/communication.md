@@ -30,7 +30,7 @@ How often we will get in touch on each channel, and what we will discuss there:
 | Fahed  | $TIME$ | $TIME$  | $TIME$    | $TIME$   | $TIME$ | $TIME$   | $TIME$ |
 | Faisal | $TIME$ | $TIME$  | $TIME$    | $TIME$   | $TIME$ | $TIME$   | $TIME$ |
 | Majd   | $TIME$ | $TIME$  | $TIME$    | $TIME$   | $TIME$ | $TIME$   | $TIME$ |
-| Mohamed| $TIME$ | $TIME$  | $TIME$    | $TIME$   | $TIME$ | $TIME$   | $TIME$ |
+| Mohamed| 6-9 PM | 6-9 PM  | 6-9 PM    | 6-10 PM  | 2-9 PM | 6-9 PM   | 6-9 PM |
 | Obey   | $TIME$ | $TIME$  | $TIME$    | $TIME$   | $TIME$ | $TIME$   | $TIME$ |
 | Özgür  | $TIME$ | $TIME$  | $TIME$    | $TIME$   | $TIME$ | $TIME$   | $TIME$ |
 | Razan  | $TIME$ | $TIME$  | $TIME$    | $TIME$   | $TIME$ | $TIME$   | $TIME$ |
@@ -42,7 +42,7 @@ How often we will get in touch on each channel, and what we will discuss there:
 - Fahed: $HOURS$
 - Faisal: $HOURS$
 - Majd: $HOURS$
-- Mohamed: $HOURS$
+- Mohamed: 2 hours
 - Obey: $HOURS$
 - Özgür: $HOURS$
 - Razan: $HOURS$
