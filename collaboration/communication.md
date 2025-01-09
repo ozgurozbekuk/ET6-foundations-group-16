@@ -25,7 +25,7 @@ How often we will get in touch on each channel, and what we will discuss there:
 
 | Day    | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday |
 |--------|:------:|:-------:|:---------:|:--------:|:------:|:--------:|:------:|
-| Anas   | 4-6 Pm | 4-6 PM  | 3-6 PM    | 4-7 PM   | 2-6 PM | 2-6 PM   | 2-6 Pm |
+| Anas   | 4-6 PM | 5-6 PM  | 5-6 PM    | 4-7 PM   | 5-7 PM | 5-7 PM   | 6-7 PM |
 | Clement| 6-8 PM | 6-8 PM  | 6-8 PM    | 6-8 PM   | 6-8 PM | 6-8 PM   | 6-8 PM |
 | Fahed  | $TIME$ | $TIME$  | $TIME$    | $TIME$   | $TIME$ | $TIME$   | $TIME$ |
 | Faisal | $TIME$ | $TIME$  | $TIME$    | $TIME$   | $TIME$ | $TIME$   | $TIME$ |
