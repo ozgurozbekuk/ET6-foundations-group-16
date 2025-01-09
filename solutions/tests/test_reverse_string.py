@@ -37,7 +37,11 @@ class TestReverseString(unittest.TestCase):
     def test_string_with_mixed_numbers_and_letters(self):
         """it should return a string with the numbers and letters in reversed order"""
         self.assertEqual(reverse_string("1a2b3c4d5e6f"), "f6e5d4c3b2a1")
-     
+
+    def test_string_with_blank_spaces(self):
+        """it should reverse the input string and treat each space as a separate character"""
+        self.assertEqual(reverse_string("ab c  de"), "ed  c ba")
+      
     # Edge cases
  
     def test_long_input(self):
@@ -46,10 +50,6 @@ class TestReverseString(unittest.TestCase):
             reverse_string("12345678910111213141516171819"),
             "91817161514131211101987654321",
         )
-     
-    def test_string_with_blank_spaces(self):
-        """it should reverse the input string and treat each space as a separate character"""
-        self.assertEqual(reverse_string("ab c  de"), "ed  c ba")
      
     def test_empty_string(self):
         """it should return an empty string"""
