@@ -41,16 +41,16 @@ class TestReverseString(unittest.TestCase):
     def test_string_with_blank_spaces(self):
         """it should reverse the input string and treat each space as a separate character"""
         self.assertEqual(reverse_string("ab c  de"), "ed  c ba")
-      
+
     # Edge cases
- 
+
     def test_long_input(self):
         """it should reverse the input string even if the input is long"""
         self.assertEqual(
             reverse_string("12345678910111213141516171819"),
             "91817161514131211101987654321",
         )
-     
+
     def test_empty_string(self):
         """it should return an empty string"""
         self.assertEqual(reverse_string(""), "")
