@@ -33,7 +33,7 @@ How often we will get in touch on each channel, and what we will discuss there:
 | Mohamed| 6-9 PM | 6-9 PM  | 6-9 PM    | 6-10 PM  | 2-9 PM | 6-9 PM   | 6-9 PM |
 | Obey   | $TIME$ | $TIME$  | $TIME$    | $TIME$   | $TIME$ | $TIME$   | $TIME$ |
 | Özgür  | $TIME$ | $TIME$  | $TIME$    | $TIME$   | $TIME$ | $TIME$   | $TIME$ |
-| Razan  | 7-9 PM | 9-10 PM  | 7-9 PM    | 7-9 PM   | 7-9 PM | 7-9 PM  | $TIME$ |
+| Razan  | 7-9 PM | 9-10 PM  | 7-9 PM    | 7-9 PM   | 7-9 PM | 7-9 PM  | 7-9 PM |
 
 ### How many hours everyone reserves for Code review per day
 
