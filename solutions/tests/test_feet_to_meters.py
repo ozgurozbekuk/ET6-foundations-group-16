@@ -9,7 +9,7 @@ Test categories:
 """
 
 import unittest
-from feet_to_meters import feet_to_meters
+from ..feet_to_meters import feet_to_meters
 
 
 class TestFeetToMeters(unittest.TestCase):
