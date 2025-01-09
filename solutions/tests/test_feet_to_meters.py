@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 Test module for the feet_to_meters function.
 
@@ -8,7 +9,6 @@ Test categories:
 """
 
 import unittest
-
 from feet_to_meters import feet_to_meters
 
 
@@ -18,7 +18,11 @@ class TestFeetToMeters(unittest.TestCase):
     # Standard test cases
     def test_positive_number(self):
         """It should return the correct meters for a positive number of feet."""
-        self.assertEqual(feet_to_meters(10), 3.048)
+        self.assertEqual(feet_to_meters(1), 0.3048)
+
+    def test_large_positive_number(self):
+        """It should return the correct meters for a large positive number of feet."""
+        self.assertEqual(feet_to_meters(100), 30.48)
 
     def test_zero(self):
         """It should return 0 for zero feet."""
@@ -29,6 +33,10 @@ class TestFeetToMeters(unittest.TestCase):
         """It should return the correct meters for a negative number of feet."""
         self.assertEqual(feet_to_meters(-5), -1.524)
 
+    def test_negative_large_number(self):
+        """It should return the correct meters for a large negative number of feet."""
+        self.assertEqual(feet_to_meters(-100), -30.48)
+
     # Defensive tests
     def test_non_numeric_input(self):
         """It should raise an AssertionError if the input is not a number."""
@@ -36,9 +44,11 @@ class TestFeetToMeters(unittest.TestCase):
             feet_to_meters("10")  # Non-numeric input
 
     def test_non_numeric_float_input(self):
-        """It should raise an AssertionError if the input is not a number (even if it's a string float)."""
+        """It should raise an AssertionError if the input is a string representation of a float."""
         with self.assertRaises(AssertionError):
-            feet_to_meters("3.14")  # Non-numeric float input
+            feet_to_meters(
+                "3.14"
+            )  # Non-numeric input (string representation of a float)
 
 
 if __name__ == "__main__":

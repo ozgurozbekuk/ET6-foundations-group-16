@@ -15,13 +15,13 @@ def feet_to_meters(feet: float) -> float:
     Converts a length from feet to meters.
 
     Parameters:
-        feet (float): The length in feet.
+        feet (float): The length in feet. It must be a numeric value (int or float).
 
     Returns:
         float: The equivalent length in meters.
 
     Raises:
-        AssertionError: If feet is not a number.
+        AssertionError: If feet is not a numeric value (int or float).
 
     Examples:
         >>> feet_to_meters(1)
@@ -35,7 +35,10 @@ def feet_to_meters(feet: float) -> float:
         >>> feet_to_meters("10")  # doctest: +ELLIPSIS
         Traceback (most recent call last):
         ...
-        AssertionError: feet must be a number
+        AssertionError: feet must be a numeric value (int or float)
     """
-    assert isinstance(feet, (int, float)), "feet must be a number"
+    # Ensure that the input is a numeric value (either int or float)
+    assert isinstance(feet, (int, float)), "feet must be a numeric value (int or float)"
+
+    # Conversion from feet to meters
     return feet * 0.3048
