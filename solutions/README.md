@@ -21,9 +21,12 @@ while corresponding test files are maintained in the `tests` folder.
 
 | **Solution File**       | **Description**                   | **Author**|
 |--------------------------|--------------------------------------------------------------|-------------------|
-| `calc_avg.py`| Calculates the average of a list of numbers | Clement  |
+| `calculate_average.py`| Calculates the average of a list of numbers | Clement |
 | `spiral_traverse.py` | Traverses a 2D matrix in spiral order | Fahed |
 | `euler_totient.py` | Computes Euler's totient function (ϕ(n))| Fahed |
+| `check_odd_or_even.py` | Checks if a number is odd or even | Clement |
+| `grading_system.py`| Assigning letter grade to a numeric score.  | Razan |
+| `kronecker_product.py` | Computes the Kronecker ⊗ product of 2 matrices | Fahed|
 | `feet_to_meters.py` | Converting feet to meters| Obay |
 
 ---
@@ -36,25 +39,25 @@ This keeps the README.md file comprehensive and useful for all group members
 
 ## **How to Use the Solutions Folder**
 
-1. **Add a Solution**  
+1. **Add a Solution**
    - Place your solution directly in the **solutions** folder,
-   - following the naming convention: `solution_name.py`.  
+   - following the naming convention: `solution_name.py`.
    - Ensure your solution file includes:
      - A Python docstring at the top describing: file's purpose, author, date & group.
      - Function-level DOCstrings explaining parameters, return values, and examples.
      - Clear and concise code adhering to Python best practices.
 
-2. **Write Corresponding Tests**  
-   - Add a test file for your solution in the `tests` folder.  
-   - Use the naming convention: `test_solution_name.py`.  
+2. **Write Corresponding Tests**
+   - Add a test file for your solution in the `tests` folder.
+   - Use the naming convention: `test_solution_name.py`.
    - Write comprehensive test cases covering normal, edge, and error scenarios.
 
-3. **Document Your Work**  
+3. **Document Your Work**
    - Include a section in the **solutions/README.md** file briefly
    - summarizing the solution and its purpose.
 
-4. **Submit Your Work**  
-   - Submit a pull request for your solution and its corresponding test file.  
+4. **Submit Your Work**
+   - Submit a pull request for your solution and its corresponding test file.
    - Ensure all tests pass before requesting a review.
 
 ---
