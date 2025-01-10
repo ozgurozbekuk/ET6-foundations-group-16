@@ -1,3 +1,6 @@
+# !/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 """
 test_is_prime.py
 
@@ -72,6 +75,11 @@ class TestIsPrime(unittest.TestCase):
         """Test case for an invalid string input."""
         with self.assertRaises(AssertionError):
             is_prime("eleven")
+
+    def test_invalid_float(self):
+        """Test case for an invalid float input."""
+        with self.assertRaises(AssertionError):
+            is_prime(6.8)
 
 
 if __name__ == "__main__":

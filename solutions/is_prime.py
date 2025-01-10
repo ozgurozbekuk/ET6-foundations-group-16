@@ -1,3 +1,6 @@
+# !/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 """
 is_prime.py
 
@@ -8,14 +11,10 @@ number other than 1 and itself.
 Author: Fahed Daibes
 Date: Fri Jan 10 2025
 Group: ET6-foundations-group-16
-
-Functions:
-- is_prime(number):
-  Determines whether the input number is a prime number.
 """
 
 
-def is_prime(number):
+def is_prime(number: int) -> bool:
     """
     Determines if a given number is prime.
 
